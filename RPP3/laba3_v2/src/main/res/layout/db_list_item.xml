@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:text="ID"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateOfAdd"
+        android:layout_width="83dp"
+        android:layout_height="54dp"
+        android:text="DATE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lastName"
+        android:layout_width="75dp"
+        android:layout_height="54dp"
+        android:text="lastName"
+        app:layout_constraintStart_toEndOf="@+id/ID"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="77dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:text="firstName"
+        app:layout_constraintStart_toEndOf="@+id/lastName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/middleName"
+        android:layout_width="84dp"
+        android:layout_height="54dp"
+        android:text="Null"
+        app:layout_constraintEnd_toStartOf="@+id/dateOfAdd"
+        app:layout_constraintStart_toEndOf="@+id/firstName"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,2 @@
+include ':app', ':laba3_v2'
+rootProject.name='laba3'
